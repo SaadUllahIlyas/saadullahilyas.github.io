@@ -1,6 +1,7 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Luxurious+Roman&display=swap');
 body {
     color: #797979;
     background: #ffffff;
@@ -153,6 +154,7 @@ a:focus {
     font-weight: 700;
     letter-spacing: 2px;
     transition: .5s;
+    font-family: 'Dancing Script', cursive;
     
 }
 

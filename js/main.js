@@ -55,7 +55,28 @@
             }
         }
     });
+
+    //Smooth scrolling on price plan banner
+    $(".banner-text a").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top - 45
+            }, 1500, 'easeInOutExpo');
+        }
+    });
     
+    //Smooth scrolling on price action contact now
+    $(".price-action a").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top - 45
+            }, 1500, 'easeInOutExpo');
+        }
+    });
     
     // Typed Initiate
     if ($('.hero .hero-text h2').length == 1) {
