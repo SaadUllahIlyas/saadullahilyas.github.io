@@ -579,7 +579,7 @@
                         <input  id="entry.1634957675" type="text" placeholder="Name" class="input-name" name="entry.1634957675">
                         <input id="entry.1294926819" type="email" placeholder="Email"  class="input-name" name="entry.1294926819">
                     </div>
-                    <input type="text" id="entry.22930220" placeholder="subject" class="input-subject" name="entry.22930220">
+                    <input type="text" id="entry.22930220" placeholder="subject" class="input-subject" name="entry.22930220" required>
                     <textarea id ="entry.981621859" class="input-textarea" placeholder="message" name="entry.981621859"></textarea>
                     <button type="submit" id ="submit" value="Submit">Submit</button>
                     </form>
@@ -644,7 +644,7 @@
     <script type="text/javascript">
     $('#myForm').on('submit', function(e) {
     $('#myForm *').fadeOut(2000);
-    $('#myForm').prepend("Your submission has been processed...").css({"color":"#c70039", "font-size":"200%"});
+    $('#myForm').prepend("Your submission has been processed...").css({"color":"#04A777", "font-size":"200%"});
     });
     </script>
     <!-- End Show form submission text -->
